@@ -8,11 +8,7 @@
 
 - **main.py:** Contains the VectorStore class definition. 
 - **app.py:** Demonstrates how to use the VectorStore class for sentence similarity search.
-##Example Input
-'''
-Query sentence:
-'''
-
+ 
 ## Example Output
 
 ```
