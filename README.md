@@ -1,20 +1,24 @@
  **README.md**
 
-# Sentence Similarity Search Using VectorStore
+   ### Capturing Context and Meaning: Sentence Similarity Search Using VectorStore for Deeper Text Understanding
 
-**This project demonstrates how to use the custom based VectorStore class that is implemented from scratch to efficiently find similar sentences based on their semantic content.**
+**This project demonstrates how to use the custom-built VectorStore class implemented from scratch to find similar sentences based on their semantic content efficiently in Python.
 
-## Files
+# Aim of the Project
+
+**The project aims to show how a custom-built VectorStore class can be used to effectively find similar sentences based on the Cosine Similarity Score. This involves implementing techniques for representing sentences as vectors, indexing those vectors in the custom VectorStore, and efficiently searching for similar vectors based on their meaning.**
+
+## Files the project mainly contains
 
 - **main.py:** Contains the VectorStore class definition. 
-- **app.py:** Demonstrates how to use the VectorStore class for sentence similarity search.
+- **app.py:** Demonstrates using the VectorStore class for sentence similarity search.
  
 ## Example Output
 
 ```
 Query sentence:  Mango is the best fruit.
 Similar sentences:
-mango is my favourite fruit.: Similarity = 0.8165
+mango is my favorite fruit.: Similarity = 0.8165
 I eat mangoes.: Similarity = 0.7071
 ```
 
